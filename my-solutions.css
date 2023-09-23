@@ -55,6 +55,14 @@
 }
 
 .ex-7-img:hover{
-    filter: brightness(1.5);
-    filter: blur(50);
+    filter: brightness(1.5) blur();
+}
+
+.ex-8-img{
+    transition: 1s;
+}
+
+.ex-8-img:hover{
+    filter: contrast(2);
+    border-radius: 10px;
 }
