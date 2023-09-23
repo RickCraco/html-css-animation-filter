@@ -66,3 +66,13 @@
     filter: contrast(2);
     border-radius: 10px;
 }
+
+.ex-9-img{
+    transition: 1s;
+}
+
+.ex-9-img:hover{
+    filter: contrast(2) sepia();
+    border-radius: 10px;
+    scale: 1.5;
+}
