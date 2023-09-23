@@ -86,3 +86,19 @@
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover{
+    animation: spinmore 1s linear;
+}
+
+@keyframes spinmore{
+    0%{
+        transform: rotate(0);
+    }
+    85%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
