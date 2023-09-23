@@ -16,7 +16,9 @@
 .ex-4-square {
     width: 100px;
     height: 100px;
-    background: red;
+    background-image: url(Goku-Bye-Bye-Gohan.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .ex-5-square {
     margin: 20px;
